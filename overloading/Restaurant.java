@@ -1,3 +1,4 @@
+//2. Develop a Restaurant Billing Application where overloaded methods calculate bills for dine-in, takeaway, and delivery orders, while static variables track total orders.
 class Restaurant {
 
     static int totalOrders;
@@ -51,7 +52,7 @@ class Restaurant {
         Restaurant r3 = new Restaurant(650.50);
         r3.bill(650.50);
 
-        Restaurant r4 = new Restaurant(1007.0);
+        Restaurant r4 = new Restaurant(1007.00);
         r4.bill(r4.deliveryBill);
 
         Restaurant.showOrders();
