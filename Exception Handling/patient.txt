@@ -1,0 +1,4 @@
+Name:Ram
+Patient no:4
+Age:19
+Disease:Fever
