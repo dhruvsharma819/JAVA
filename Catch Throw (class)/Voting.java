@@ -4,7 +4,7 @@ class InvalidAgeException extends java.lang.Exception {
     }
 }
 
-public class EXP {
+public class Voting {
 
     public static void validate(int age) throws InvalidAgeException {
         if (age < 18) {
